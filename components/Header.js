@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div>
            <header>
-            <HeaderImage/>
+            <img src='/headerLogo.png' style={{width:250, height:250}} />
                <button className="headbutt">Say Hi!</button>
            </header>
         </div>
