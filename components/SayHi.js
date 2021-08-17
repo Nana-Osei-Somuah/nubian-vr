@@ -3,11 +3,12 @@ import React from 'react'
 const SayHi = () => {
     return (
         <div>
-            <h1>Say Hi</h1>
-            <p>
+            <img className="sayHiImage" src='/SayHiImage.png' style={{width:250, height:250}} />
+            <h1 style={{textAlign:'center'}}>Say Hi</h1>
+            <p style={{textAlign:'center'}}>
                 Have an idea for a solution that marries Interactivity &amp;
-                Immersion with Learning &amp;  Training? Or a cool VR or AR app 
-                or game concept? Drop us a note and we will get in touch.
+                Immersion <br></br> with Learning &amp;  Training? Or a cool VR or AR app 
+                or game <br></br> concept? Drop us a note and we will get in touch.
             </p>
             <form>
                 <input type="text" name="#" placeholder="Name" className="form"></input>

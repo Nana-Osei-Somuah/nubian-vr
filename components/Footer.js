@@ -6,7 +6,7 @@ const Footer = () => {
             <footer>
                 <br></br>
                 <br></br>
-                <button className="butt">Say Hi!</button>
+                <button className="butt footbutt" >Say Hi!</button>
                 <br></br>
                 <br></br>
                 <p className="footerPtag"> &copy; 2020 by Nubian Virtual Reality Technology Company</p>
