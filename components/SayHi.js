@@ -3,7 +3,7 @@ import React from 'react'
 const SayHi = () => {
     return (
         <div>
-            <img className="sayHiImage" src='/SayHiImage.png' style={{width:250, height:250}} />
+            <img className="sayHiImage" src='/SayHiImage.png' />
             <h1 style={{textAlign:'center'}}>Say Hi</h1>
             <p style={{textAlign:'center'}}>
                 Have an idea for a solution that marries Interactivity &amp;

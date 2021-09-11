@@ -6,10 +6,18 @@ const Footer = () => {
             <footer>
                 <br></br>
                 <br></br>
-                <button className="butt footbutt" >Say Hi!</button>
+                <div>
+                    <button className="butt footbutt" >Say Hi!</button>
+                    <img src='/footerLogo.png' className="footerLogo" /> 
+                    <img src='/instagram.webp' className="footerImages" /> 
+                    <img src='/linkedin.webp' className="footerImages" /> 
+                    <img src='/twitter.webp' className="footerImages" /> 
+                    <img src='/youtube.webp' className="footerImages" /> 
+                    <img src='/facebook.webp' className="footerImages" /> 
+                </div>    
                 <br></br>
                 <br></br>
-                <p className="footerPtag"> &copy; 2020 by Nubian Virtual Reality Technology Company</p>
+                    <p className="footerPtag"> &copy; 2020 by Nubian Virtual Reality Technology Company</p>
             </footer>
         </div>
     )

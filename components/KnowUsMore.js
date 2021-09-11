@@ -4,35 +4,34 @@ import { Carousel } from 'react-bootstrap'
 const KnowUsMore = () => {
     return (
         <div>
-            <h1>Know Us More</h1>
+            <h1 style={{textAlign:'center', marginTop:-200}}>Know Us More</h1>
+            <div >
+                <img className="knowUsImages unicef" src='/unicef.webp' style={{ marginRight:20}} />
+                <img className="knowUsImages" src='/squid.webp' style={{ marginRight:20}} />
+                <img className="knowUsImages" src='/technova.webp' style={{ marginRight:20}}/>
+            </div>
 
-            <Carousel>
-                <Carousel.Item>
-                <iframe className="d-block w-100" src="https://www.youtube.com/embed/SLno0C9Nwuw">
-</iframe>
-                    <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <Carousel className="carousel" >
+                <Carousel.Item >
+                <iframe className="d-block w-100 iframeItem"   src="https://www.youtube.com/embed/SLno0C9Nwuw"></iframe>
+                    <Carousel.Caption className="caption">
+                        <h3 >Virtual Reality Fire Drill Simulation of a petrol station. </h3>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
-                <iframe className="d-block w-100" src="https://www.youtube.com/embed/9sc2F5XKTtM">
-</iframe>
-
-                    <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                
+                <Carousel.Item >
+                    <iframe className="d-block w-100 iframeItem"  src="https://www.youtube.com/embed/9sc2F5XKTtM"></iframe>
+                    <Carousel.Caption style={{color:'orangered'}} className="caption">
+                        <h3>Animated video lesson on Capacitors. It was designed as part of a VR interactive module to teach Basic Electronics</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                     
                     
-                    <iframe className="d-block w-100" src="https://www.youtube.com/embed/-wG3OvLJ1Tg">
-</iframe>
-
-                    <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <iframe className="d-block w-100 iframeItem" src="https://www.youtube.com/embed/-wG3OvLJ1Tg"></iframe>
+                    <Carousel.Caption className="caption">
+                    <h3>Virtual Reality interactive module to teach Basic Electronics to Highschool students</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
